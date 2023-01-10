@@ -1,0 +1,71 @@
+{
+  "title":"Quem é você na Família Addams?",
+  "questions":[
+    {
+      "id":1,
+      "question": "O QUE VOCÊ GOSTA DE FAZER NO SEU TEMPO LIVRE?",
+      "options":[
+        {"id": 1, "name":"Dormir!", "alias":"A"},
+        {"id": 2, "name":"Fazer as unhas", "alias":"B"},
+        {"id": 3, "name":"Praticar Esportes que incluam a morte do seu oponente", "alias":"C"},
+        {"id": 4, "name":"Ler um livro de qualidade duvidosa", "alias":"D"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "QUAL SERIA O ROLÊ ALEATÓRIO PERFEITO?",
+      "options":[
+        {"id": 1, "name":"Ver filme de Terror o Dia Inteiro", "alias":"A"},
+        {"id": 2, "name":"Fazer um passeio no cemitério", "alias":"B"},
+        {"id": 3, "name":"Adotar um Gato Preto", "alias":"C"},
+        {"id": 4, "name":"Escrever Poemas Tristes e Depressivos", "alias":"D"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "QUAL A MELHOR SUPERTISÇÃO MÓRBIDA?",
+      "options":[
+        {"id": 1, "name":"Não Passar Debaixo da Escada", "alias":"A"},
+        {"id": 2, "name":"Não se despedir em cima de uma ponte", "alias":"B"},
+        {"id": 3, "name":"Não deixa que varram seus pés", "alias":"C"},
+        {"id": 4, "name":"Não deixar chinelo ou sapato de cabeça para baixo", "alias":"D"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "ESCOLHA UM COMPANHEIRO ARREPIANTE:",
+      "options":[
+        {"id": 1, "name":"MORCEGO", "alias":"A"},
+        {"id": 2, "name":"ARANHA", "alias":"B"},
+        {"id": 3, "name":"ESCORPIÃO", "alias":"C"},
+        {"id": 4, "name":"RATO", "alias":"D"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "O QUE É MAIS GÓTICO?",
+      "options":[
+        {"id": 1, "name":"O cemitério da cidade", "alias":"A"},
+        {"id": 2, "name":"O livro Drácula de Bram Stoker", "alias":"B"},
+        {"id": 3, "name":"A Catedral de Notre Dame", "alias":"C"},
+        {"id": 4, "name":"O meu coração", "alias":"D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "POR FIM, ESCOLHA UM VERDADEIRO HORROR DA VIDA MODERNA?",
+      "options":[
+        {"id": 1, "name":"Os grupos de WhatsApp", "alias":"A"},
+        {"id": 2, "name":"Sua irmã mais velha", "alias":"B"},
+        {"id": 4, "name":"Os boletos", "alias":"C"},
+        {"id": 4, "name":"Errar no cuidado com as Plantas", "alias":"D"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Wandinha",
+    "B": "Morticia",
+    "C": "Gomes",
+    "D": "Feioso"
+  }
+}

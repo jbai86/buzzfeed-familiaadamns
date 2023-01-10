@@ -1,0 +1,30 @@
+<div class="quizz__container">
+
+
+  <div class="quizz_logo">
+    <img class="maozinha" src="../../../assets/imgs/maozinha-addams.png" width="80" alt="">
+    <img class="familia-addamns" src="../../../assets/imgs/familia-addamns.png" width="300" alt="">
+    <h3>{{ title }}</h3>
+  </div>
+
+  <div class="music">
+    <button class="btn" (click)="playMusic()">Tocar Música</button>
+  </div>
+
+
+  <div *ngIf=!finished class="quizz_questions">
+    <h3>{{ questionSelected.question }}</h3>
+  </div>
+
+  <div *ngIf=!finished class="quizz_options">
+    <button *ngFor="let option of questionSelected.options; let i = index" (click)="playerChoose(option.alias)" class="btn-option">
+      {{ option.name }}
+    </button>
+  </div>
+
+  <div *ngIf=finished class="quizz_results">
+    <h1>Seu resultado é:</h1>
+    <p>{{ answerSelected }}</p>
+  </div>
+
+</div>
